@@ -2,6 +2,7 @@ import fs from "fs";
 import path from "path";
 import matter from "gray-matter";
 import { remark } from "remark";
+import prism from "remark-prism";
 import html from "remark-html";
 
 export interface PostData {
@@ -60,7 +61,8 @@ export async function getPostData(
   const matterResult = matter(fileContents);
 
   const processedContent = await remark()
-    .use(html)
+    .use(prism)
+    .use(html, { sanitize: false })
     .process(matterResult.content);
   const contentHtml = processedContent.toString();
 
