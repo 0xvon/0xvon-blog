@@ -29,7 +29,7 @@ const Home: React.FC<HomeProps> = ({ allPostsData }) => {
             <div key={id} className={styles.postListItem}>
               <div className={styles.postItem}>
                 <p className={styles.postDate}>{date}</p>
-                <Link href={`/blog/${id}`} className={styles.link}>
+                <Link href={`/general/${id}`} className={styles.link}>
                   <p className={styles.postTitle}>{title}</p>
                 </Link>
               </div>
