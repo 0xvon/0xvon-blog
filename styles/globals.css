@@ -3,4 +3,21 @@ body {
   background-color: #000;
   color: #fff;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  margin: 16px;
+}
+
+a {
+  color: #884EF7;
+  text-decoration: none;
+}
+
+a:hover,
+a:focus,
+a:active {
+  text-decoration: underline;
+}
+
+a:visited {
+  color: #884EF7;
+  text-decoration: none;
 }
