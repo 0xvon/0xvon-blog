@@ -1,6 +1,8 @@
 import Head from "next/head";
 import { GetStaticProps, GetStaticPaths } from "next";
 import { getAllPostIds, getPostData, PostData } from "../../lib/posts";
+import styles from "../../styles/index.module.css";
+import Link from "next/link";
 
 export const getStaticPaths: GetStaticPaths = async () => {
   const paths = getAllPostIds();
@@ -35,8 +37,13 @@ const Post: React.FC<PostProps> = ({ postData }) => {
       <Head>
         <title>{postData.title}</title>
       </Head>
-      <h1>{postData.title}</h1>
-      <div dangerouslySetInnerHTML={{ __html: postData.contentHtml }} />
+      <Link href="/">
+        <h1 className={styles.headerTitle}>0vxon</h1>
+      </Link>
+      <div className={styles.content}>
+        <h1>{postData.title}</h1>
+        <div dangerouslySetInnerHTML={{ __html: postData.contentHtml }} />
+      </div>
     </div>
   );
 };
