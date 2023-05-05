@@ -21,8 +21,8 @@ I love thinking system architecture and infrastructure, especially distributed o
 ## Previous Works
 - Software Developer, especially architected server and database's infrastructure using AWS, Kubernetes and Openstack
 	- [Aidemy Modeloy](https://business.aidemy.net/ai-can/tag/modeloy/) (2019/02~2019/12)
-		[Camel https://www.camel-delivery.com/] (2020/03~2020/11)
-		etc
+	- [Camel](https://www.camel-delivery.com/) (2020/03~2020/11)
+	- etc
 - Founder and CEO at [PENTA](https://www.penta.fan), a GameFi which progresses through listening music
 - Bachelor CS at Kishi Lab in Waseda Universiry, researched in DAG-based Blockchain Consensus
 	- [Proposal for simple and efficient Blockchain DAG-based Mempool](https://drive.google.com/file/d/1mJKVqfDXSckwlushqoJbyZui3zSUicGM/view?usp=sharing) (Japanese), my graduation thesis
