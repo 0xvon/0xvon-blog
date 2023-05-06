@@ -51,6 +51,13 @@ I love thinking system architecture and infrastructure, especially distributed o
 	- Soccer (experienced for 12+ years)
 	- Gym
 	- Japanese Rock Music
+- Skills
+	- Swift (4 years)
+	- AWS/Kubernetes/OpenStack (4 years)
+	- React (4 years)
+	- Node.js (3 years)
+	- Solidity (1.5 year)
+	- CEO/CTO (2.5 years)
 
 <br>
 
